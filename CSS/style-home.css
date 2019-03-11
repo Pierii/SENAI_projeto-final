@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:   'Calibri', 'Open Sans' , 'sans-serif';
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header > img{
+    margin-left: 15em;
+    width: 20%;
+    height: 20%;
+}
+nav > ul{
+    margin-left: 40%;
+    margin-top: -5em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    justify-content: space-around;
+    align-items: center;
+    background: #202020;
+    width: 50%;
+    height: 6em;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fc9933;
+    font-size: 30pt;
+}
