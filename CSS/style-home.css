@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family:   'Calibri', 'Open Sans' , 'sans-serif';
     background-image: url(../img/Background.png);
@@ -37,6 +40,8 @@ nav a{
     font-size: 40pt;
     
 }nav a:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
     text-decoration: none;
     color: #fff;
     font-size: 40pt;
@@ -118,8 +123,8 @@ nav a{
     border-color: #fc9933;
     width: 99.4%;
     margin-top: 5em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     text-align: center;  
 }
 .box a{
@@ -128,19 +133,57 @@ nav a{
     text-decoration: none;
 }
 .box:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
     background: #fc9933;
     border-style: solid;
     border-color: #000;
     width: 99.3%;
     margin-top: 5em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     text-align: center;  
 }
 .box a:hover{
     background: #fc9933;
     color: #000;
 }
-.botao{
-    width: 100EM;;
+.att{
+    margin-top: 2em;
+    width: 99.67%;
+    height: 6em;
+    background: #000;
+    border: solid;
+    border-color: #fc9933;
+}
+.att a{
+    text-decoration: none;
+    color: #fc9933;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+.att:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background: #fc9933;
+    border: solid;
+    border-color:#000;
+}
+.att a:hover{
+    color: #000;
+}
+#orcamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plano img{
+    width: 116;
+    height: 234;
+}
+.plano{
+    display: flex;
+    flex-direction: column;
+    background-color: #565656;
 }
