@@ -153,7 +153,7 @@ nav a{
     width: 99.67%;
     height: 6em;
     background: #000;
-    border: solid;
+    border-style: solid;
     border-color: #fc9933;
 }
 .att a{
@@ -167,7 +167,7 @@ nav a{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     background: #fc9933;
-    border: solid;
+    border-style: solid;
     border-color:#000;
 }
 .att a:hover{
