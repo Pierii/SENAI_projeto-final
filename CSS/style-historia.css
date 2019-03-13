@@ -71,3 +71,35 @@ main p{
     border-color: #fc9933;
     width: 80%;
 }
+#conheca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#conheca h3{
+    color: #fff;
+    font-size: 48pt;
+}
+#conheca p{
+    color: #fc9933;
+    background: #000;
+    border-style: solid;
+    border-color: #000;
+    font-size: 24pt;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-items: center;
+}
+.produto{ 
+    background-image: url(../img/Tecnologia_produto.png);
+    height: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.equipe{ 
+    background-image: url(../img/equipe_fundo.png);
+    height: 10em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
