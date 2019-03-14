@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:   'Calibri', 'Open Sans' , 'sans-serif';
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    display: none;
+}
+header > img{
+    margin-left: 15em;
+    width: 15%;
+    height: 15%;
+}
+nav > ul{
+    margin-left: 40em;
+    margin-top: -5em;
+    margin-right: 10%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+    justify-content: space-around;
+    align-items: center;
+    background: #202020;
+    width: 60%;
+    height: 7em;
+    border-radius: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #fc9933;
+    font-size: 40pt;
+    
+}nav a:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40pt;
+}
+main{
+    margin-top: -1em;
+    background-image: url(../img/fundo_sac.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+main h2{
+    font-size: 72pt;
+    color: #fc9933;
+    text-align: center;
+}
+.cx{
+    background: #fc9933;
+    border: 5px solid #000;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 5em;
+}
+.cx img{
+    width: 80px;
+    height: 80px;
+}
+.cx p{
+    font-size: 30pt;
+}
