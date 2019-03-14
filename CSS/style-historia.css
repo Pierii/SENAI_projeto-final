@@ -72,34 +72,50 @@ main p{
     width: 80%;
 }
 #conheca{
+    margin-top: 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #conheca h3{
     color: #fff;
     font-size: 48pt;
+    text-align: center;
+    margin-top: 1em;
 }
 #conheca p{
     color: #fc9933;
     background: #000;
-    border-style: solid;
-    border-color: #000;
+    border: 5px solid #202020;
     font-size: 24pt;
-    text-align: center;
-    width: 80%;
-    display: flex;
-    justify-items: center;
+    padding: 1em;
+    margin: 1.5em;
 }
 .produto{ 
     background-image: url(../img/Tecnologia_produto.png);
-    height: 10em;
+    height: 30em;
+    width: 45em;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .equipe{ 
     background-image: url(../img/equipe_fundo.png);
-    height: 10em;
+    height: 30em;
+    width: 45em;
     background-size: cover;
     background-repeat: no-repeat;
+}
+article{
+    margin-top: 5em;
+    margin-left: 24em;
+}
+.fundo img{
+    border: 5px solid #000;
+}
+.fundo img:hover{
+    position: relative;
+}
+.fundadores img{
+    margin-left: 11em;
+    margin-top: -100em;
 }
