@@ -176,14 +176,19 @@ nav a{
 #orcamento{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
-.plano img{
-    width: 116;
-    height: 234;
+.img{
+    width: 116px;
+    height: 234px;
 }
 .plano{
     display: flex;
     flex-direction: column;
     background-color: #565656;
+    width: 25em;
+    height: 20em;
+    align-items: center;
+    border: 3px solid #fc9933;
+    margin: 1em 10px 0 0;
 }
