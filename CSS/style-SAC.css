@@ -120,6 +120,35 @@ main h2{
 .stars img{
     width: 90%;
 }
-.contato h2{
-    
+.ctts h2{
+    margin-top: 0.5em;
+    color: #fc9933;
+    background: #000;
+    border: 5px solid #fc9933;
+    font-size: 72pt;
+    text-align: center;
+}
+address{
+    color: #fc9933;
+    font-size: 20pt;
+    text-align: center;
+}
+.login{
+    background: #000;
+    color: #fc9933;
+    width: 50%;
+    height: 150px;
+    border: 5px solid #fff;
+    margin: auto;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;   
+}
+.login p{
+    font-size: 30pt;
+}
+.login a{
+    font-size: 40pt;
+    color: #fff;
+    text-decoration: none;
 }
