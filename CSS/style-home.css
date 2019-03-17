@@ -150,7 +150,7 @@ nav a{
 }
 .att{
     margin-top: 2em;
-    width: 99.67%;
+    width: 99.5%;
     height: 6em;
     background: #000;
     border-style: solid;
@@ -186,9 +186,51 @@ nav a{
     display: flex;
     flex-direction: column;
     background-color: #565656;
-    width: 25em;
-    height: 20em;
+    width: 400px;
+    height: 320px;
     align-items: center;
     border: 3px solid #fc9933;
-    margin: 1em 10px 0 0;
+    margin: 3em 10px 1em 0;
+    font-size: 17pt;
+    color: #000;
+}
+.plano:hover{
+    color: #fc9933;
+    display: flex;
+    flex-direction: column;
+    background-color: #464545;
+    width: 450px;
+    height: 360px;
+    align-items: center;
+    border: 3px solid #fc9933;
+    margin: 2em 10px 1em 0;
+    justify-content: center;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20pt;
+}
+.help a{
+    color: #fc9933;
+    font-size: 30pt;  
+    text-decoration: none;
+    background: #000;
+    border: 5px solid #fc9933;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: auto;
+}
+.help a:hover{
+    color: #000;
+    font-size: 30pt;  
+    text-decoration: none;
+    background: #fc9933;
+    border: 5px solid #000;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: auto;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 }
