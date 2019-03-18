@@ -119,3 +119,139 @@ article{
     margin-left: 11em;
     margin-top: -100em;
 }
+@media (max-width: 1366px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 30pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    article{
+        margin-top: 5em;
+        margin-left: 5em;
+    }
+    main h2{
+        font-size: 7em;
+        text-align: center;
+        padding: 60px;
+        color: #000;
+    }
+    main p{
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+        padding: 50px;
+        color: #fc9933;
+        background: #000;
+        border-style: solid;
+        border-color: #fc9933;
+        width: 80%;
+    }
+    #conheca{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    #conheca h3{
+        color: #fff;
+        font-size: 38pt;
+        text-align: center;
+        margin-top: 1em;
+    }
+    #conheca p{
+        color: #fc9933;
+        background: #000;
+        border: 5px solid #202020;
+        font-size: 14pt;
+        padding: 1em;
+        margin: 1.5em;
+    }
+    .produto{ 
+        background-image: url(../img/Tecnologia_produto.png);
+        height: 20em;
+        width: 45em;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .equipe{ 
+        background-image: url(../img/equipe_fundo.png);
+        height: 20em;
+        width: 45em;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 1125px){
+    nav a{
+        font-size: 20pt;
+    }
+    nav a:hover{
+        font-size: 20pt;
+    }
+    article{
+        margin-top: 5em;
+        margin-left: -1.5em;
+    }
+    main{
+        height: 40em;
+    }
+    main h2{
+        font-size: 5em;
+        text-align: center;
+        padding: 60px;
+        color: #000;
+    }
+    main p{
+        margin: auto;
+        font-size: 30px;
+        text-align: center;
+        padding: 50px;
+        color: #fc9933;
+        background: #000;
+        border-style: solid;
+        border-color: #fc9933;
+        width: 80%;
+    }
+}
+@media (max-width: 1100px){
+    article{
+        margin-top: 5em;
+        margin-left: 24em;
+    }
+    .fundo img{
+        border: 5px solid #000;
+    }
+    .fundo img:hover{
+        position: relative;
+    }
+    .fundadores img{
+        margin-left: 11em;
+    }
+}
