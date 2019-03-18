@@ -118,3 +118,175 @@ main p{
     font-size: 5em;
     padding: 0.2em;
 }
+@media (max-width: 1366px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 30pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    main{
+        background-image: url(../img/missao_fundo.jpg);
+        background-size: 150%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40em;
+        margin-top: -1em;
+    }
+    main h2{
+        font-size: 6em;
+        color: #fc9933;
+        text-align: center;
+    }
+    main p{
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+        padding: 50px;
+        color: #fc9933;
+        background: #000;
+        border-style: solid;
+        border-color: #fc9933;
+        width: 80%;
+    }
+    .conceitos{
+        background-image: url(../img/Logo_back.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40em;
+        border: 5px solid #000;
+    }
+    .conceitos h2{
+        font-size: 6em;
+        color: #fc9933;
+        text-align: center;
+    }
+    .conceitos p{
+        margin: auto;
+        font-size: 40px;
+        text-align: center;
+        padding: 50px;
+        color: #000;
+        background: #fc9933;
+        border-style: solid;
+        border-color: #000;
+        width: 80%;
+    }
+    .conheca{
+        margin: 2em auto;
+        margin-left: 450px;
+    }
+    .conheca a{
+        text-decoration: none;
+        color: #fc9933;
+        background: #202020;
+        border: 5px solid #fc9933;
+        width: 5em;
+        font-size: 3em;
+        padding: 0.2em;
+    }
+    .conheca a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #202020;
+        background: #fc9933;
+        border: 5px solid #202020;
+        width: 5em;
+        font-size: 3em;
+        padding: 0.2em;
+    }
+}
+@media (max-width: 1126px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 20pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    main p{
+        font-size: 20px;
+    }
+    .conceitos p{
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        padding: 50px;
+        color: #000;
+        background: #fc9933;
+        border-style: solid;
+        border-color: #000;
+        width: 80%;
+    }
+    .conheca{
+        margin: 2em auto;
+        margin-left: 300px;
+    }
+}
+@media (max-width: 840px){
+    nav a{
+        font-size: 14pt;
+    }
+    nav a:hover{
+        font-size: 14pt;
+    }
+    nav > ul{
+        margin-left: 15em;
+    }
+    .conheca{
+        margin-left: 150px;
+    }
+}

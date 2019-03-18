@@ -148,3 +148,136 @@ main *{
 .box2 ::placeholder{
     color: #000;
 }
+@media (max-width: 1366px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 30pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    .box2 img{
+        width: 20em;
+        height: 20em;
+    }
+    .box2{
+        margin-top: -50.5em;
+        margin-left: 55em;
+        background: #000;
+        height: 70em;
+        width: 30%;
+        border: 5px solid #fc9933;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .multi form{
+        display: flex;
+        flex-direction: column;
+    }
+    .resumo{
+        display: flex;
+        margin-left: -340px;
+    }
+    .resumo input{
+        width: 600px;
+        height: 300px;
+    }
+    .box1 ::placeholder{
+        color: #fff;
+    }
+    .box2 input , select{
+        width: 300px;
+        height: 40px;
+        border: none;
+        background: #fc9933;
+        color: #000;
+        padding: 0.5em;
+        font-size: 12pt;
+        margin: 10px auto;
+    }
+    .resumo_empresa{
+        display: flex;
+        margin-left: 10px;
+    }
+    .resumo_empresa input{
+        width: 300px;
+        height: 300px;
+    }
+    .box2 ::placeholder{
+        color: #000;
+    }
+}
+@media (max-width: 1126px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 20pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    .box1{
+        margin-left: 10px;
+        background: #fc9933;
+        height: 50em;
+        width: 80%;
+        border: 5px solid #000;
+    }
+    .box2{
+        margin-top: -50.5em;
+        margin-left: 45em;
+    }
+}
+@media (max-width: 1080px){
+    
+}

@@ -152,3 +152,163 @@ address{
     color: #fff;
     text-decoration: none;
 }
+@media (max-width: 1366px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 30pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    #depoimentos{
+        background: #000;
+        border: 5px solid #fc9933;
+        height: 250;
+    }
+    #depoimentos h2{
+        font-size: 72pt;
+        text-align: center;
+        color: #fc9933;
+    } 
+    main{
+        margin-top: -1em;
+        background-image: url(../img/fundo_sac.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+    main img{
+        height: 150em;
+    }
+    .box_dep{
+        background: #fc9933;
+        margin: auto;
+        width: 1100px;
+        height: 250px;
+        margin-bottom: 3em;
+        font-size: 30pt;
+        display: flex;
+        
+    }
+    .txt{
+        display: flex;
+        flex-direction: row;
+    }
+    .txt_dentro{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+    }
+}
+@media (max-width: 1126px){
+    nav > ul{
+        margin-left: 20em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fc9933;
+        font-size: 20pt;
+        
+    }nav a:hover{
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20pt;
+    }
+    header > img{
+        margin-left: 5em;
+        width: 15%;
+        height: 15%;
+    }
+    main{
+        margin-top: -1em;
+        background-image: url(../img/fundo_sac.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+    .box_dep{
+        background: #fc9933;
+        margin: auto;
+        width: 800px;
+        height: 250px;
+        margin-bottom: 3em;
+        font-size: 20pt;
+        display: flex;
+    }
+    .login p{
+        font-size: 20pt;
+    }
+}
+@media (max-width: 900px){
+    nav > ul{
+        margin-left: 15em;
+        margin-top: -5em;
+        margin-right: 10%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        justify-content: space-around;
+        align-items: center;
+        background: #202020;
+        width: 60%;
+        height: 7em;
+        border-radius: 15px ;
+    }
+    nav a{
+        font-size: 14pt;
+    }
+    nav a:hover{
+        font-size: 14pt;
+    }
+    .box_dep{
+        background: #fc9933;
+        margin: auto;
+        width: 600px;
+        height: 250px;
+        margin-bottom: 3em;
+        font-size: 20pt;
+        display: flex;
+    }
+}
